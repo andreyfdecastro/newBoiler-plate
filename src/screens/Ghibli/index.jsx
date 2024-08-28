@@ -6,11 +6,11 @@ import styles from './styles'
 import Mybutton from '../../components/MyButon'
 
 
-export default function Home() {
+export default function Ghible() {
   return (
     <View style={styles.container}>
+     <Mybutton screen="Home" name="Go to Home" />
      <Mybutton screen="Totoro" name="Go to Totoro" />
-      <Mybutton screen="Ghibli" name="Go to Ghibli" />
     </View>
   )
 }
